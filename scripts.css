@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('images/play.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+h1 {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Matemasie', sans-serif;
+    font-size: 60px;
+    color: #f0f0f0;
+
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    border-radius: 10px;
+    background-image: url('images/fundo3.jpg');
+    background-size: cover; 
+    background-position: center; 
+    
+}
+
+.card.flipped {
+    background-color: white;
+    color: black;
+}
+
+.card img {
+    width: 93px;
+    height: 93px;
+    border-radius: 10px;
+}
+
+.game-info {
+    margin-top: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    border-radius: 30px;
+    color:#f0f0f0;
+}
+
